@@ -1,0 +1,22 @@
+{
+    "name": "demo-css",
+    "version": "1.0.0",
+    "description": "Demo de CSS del Curso DATW 2026",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yevestevez/demo-css.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "prettier": {
+        "singleQuote": true
+    },
+    "dependencies": {
+        "live-server": "^1.2.2"
+    }
+}
