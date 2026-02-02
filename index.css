@@ -1,8 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(26, 17, 36);
+    color: rgb(207, 190, 228);
+    text-align: center;
+    margin: 1em;
+    padding: 3em;
 }
 
 h1 {
-    color: rgb(207, 190, 228);
+    font-size: 4em;
+    font-weight: bolder;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+hgroup {
+    p {
+        color: palevioletred;
+        margin-bottom: 2em;
+        font-weight: bold;
+    }
+}
+
+#cool-p {
+    background-color: pink;
+    color: rgb(26, 17, 36);
+    padding: 1em;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 0.5em;
+
+    &:hover {
+        background-color: rgb(255, 0, 128);
+        color: pink;
+    }
+}
+
+.pink-p {
+    color: palevioletred;
+    &:hover {
+        color: aquamarine;
+    }
+}
+
+a {
+    color: pink;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+[target='_blank'] {
+    color: rgb(255, 0, 128);
 }
