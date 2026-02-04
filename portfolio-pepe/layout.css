@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header,
+footer,
+main {
+    border: 1px solid black;
+}
+
+header {
+    min-height: 15vh;
+    text-align: center;
+
+    padding-block: 0.8rem;
+
+    h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+main {
+    min-height: 70vh;
+
+    section {
+        h2 {
+            padding-block: 0.8rem;
+            text-align: center;
+            margin-block: 0;
+        }
+    }
+
+    .column {
+        width: 48%;
+        display: block;
+        float: left;
+    }
+
+    p {
+        padding-inline: 0.8rem;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+footer {
+    min-height: 10vh;
+    text-align: center;
+    padding-block: 0.8rem;
+    margin: 0;
+}
+
+:not(header) > p {
+    &:first-line {
+        font-weight: bold;
+    }
+}
